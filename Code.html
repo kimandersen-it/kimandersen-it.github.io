@@ -1,14 +1,20 @@
+
+
+
 <!-- Kimberly Andersen -->
 
+
+<!-- Data output created from Pandas using DataFrame.to_html() -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
 
   <meta charset="UTF-8">
-  <title>GradMeanIncome</title>
-  <h1>Graduation Rate - Poverty Level </h1>
+  <title>Code</title>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -20,9 +26,10 @@
 	<link src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 
 </head>
-<body>
 
-  <!-- Create grid -->
+
+<body>
+   <!-- Create grid -->
   <div class="container">
 
     <div class="row">
@@ -68,6 +75,32 @@
 			 		    
       </div>
 	</div>
+	<!-- Empty row -->
+    <div class="row">
+		<div class="col-md-12">
+		<h1>   </h1>
+		</div>
+	</div>
+	
+		      <div class="col-md-12">
+		<div class="box">
+			</p>
+			<p>
+		
+				<img src = 	"coding.png"
+					alt = "Coding Image" 
+					height = "700"
+					width = "980"
+					align="center"
+
+
+
+
+					/>
+			</p>
+			  
+			
+        </div>
 	<div class="row">
 
 		<div class="col-md-1">
@@ -77,32 +110,9 @@
 	</div>
 
 	</div>
-	<div class="row">
+</div>
 
-	    <div class="col-md-7">
-		
-			<p>		
-				<img src = 	"PovertyRate.png"
-					height = "420"
-					width = "580"
-					alt = "Grad-Poverty Level Image"/> 
-			</p>
-	
-	    </div>
-	
-	    <div class="col-md-5">	  
-	  
-			<p id="PlotsText"> Poverty level.  This is interesting as poverty level slowly 
-			trends upward and then sharply jumps to 30% for our lowest performing school </p>
-    
-	    </div>
-	
-	</div>
-	 
-  </div>
-	 
+<div id='table-container'></div>
 
-	 
 </body>
 </html>
-	 
